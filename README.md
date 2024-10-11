@@ -32,12 +32,16 @@ the "README.devel" file. ;-)
   ============
 
 Everything you need to do is to run, as the root user, the command:
-    # python setup.py install
+```bash
+python setup.py install
+```
 
 IMDbPY itself can be installed through easy_install and pip,
 with - respectively - these commands (as root):
-  easy_install IMDbPY
-  pip install IMDbPY
+```bash
+easy_install IMDbPY
+pip install IMDbPY
+```bash
 
 Using easy_install and pip, the dependencies will be automatically
 satisfied.  Third-party packages may be downloaded, and if not
@@ -50,11 +54,13 @@ major version you're using, but remember that you'll not satisfy
 the required dependencies and neither compile the optional C module,
 so use this as your very last resort.
 To know what major version of python you've installed, run:
-    $ python -V
+    `python -V`
 It should return a string like "Python 2.6.1"; in this example
 the major version is "2.6".
 Now copy the "./imdb" directory:
+```bash
     # cp -r ./imdb /usr/local/lib/python{MAJORVERSION}/site-packages/
+```
 
 The setup.py contains some configuration options that could
 be useful if you're installing IMDbPY in a system with very
@@ -78,7 +84,6 @@ You can exclude the unwanted one with:
   --without-sqlalchemy	exclude SQLAlchemy
 
 If you specify both, --without-sql is implied.
-
 
   Mercurial VERSION
   =================

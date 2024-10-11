@@ -41,7 +41,7 @@ with - respectively - these commands (as root):
 ```bash
 easy_install IMDbPY
 pip install IMDbPY
-```bash
+```
 
 Using easy_install and pip, the dependencies will be automatically
 satisfied.  Third-party packages may be downloaded, and if not

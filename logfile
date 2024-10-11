@@ -1,0 +1,84 @@
+LOG:  database system was shut down at 2020-03-03 15:54:48 HKT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  statistics collector process (PID 12540) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  autovacuum launcher process (PID 3924) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  all server processes terminated; reinitializing
+LOG:  database system was interrupted; last known up at 2020-03-03 15:57:54 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/1585640: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  statistics collector process (PID 13160) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  autovacuum launcher process (PID 16192) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  all server processes terminated; reinitializing
+LOG:  database system was interrupted; last known up at 2020-03-03 16:05:28 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/15856B0: wanted 24, got 0
+LOG:  redo is not required
+LOG:  startup process (PID 7760) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  aborting startup due to startup process failure
+^CLOG:  database system shutdown was interrupted; last known up at 2020-03-03 16:05:30 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/15856B0: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  statistics collector process (PID 6996) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher process (PID 11756) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  all server processes terminated; reinitializing
+LOG:  database system was interrupted; last known up at 2020-03-03 16:29:18 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/1585720: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  statistics collector process (PID 3752) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher process (PID 5720) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  all server processes terminated; reinitializing
+LOG:  database system was interrupted; last known up at 2020-03-03 16:39:07 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/1585790: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+ERROR:  canceling statement due to user request
+LOG:  autovacuum launcher process (PID 19132) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+LOG:  abnormal database system shutdown
+^CLOG:  database system was interrupted; last known up at 2020-03-03 16:39:11 HKT
+LOG:  database system was not properly shut down; automatic recovery in progress
+LOG:  invalid record length at 0/1585800: wanted 24, got 0
+LOG:  redo is not required
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
